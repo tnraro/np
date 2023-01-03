@@ -35,9 +35,13 @@ export default component$(() => {
           </a>
         </li>
       </ul>
+      <p class="text-slate-500 text-sm">
+        본 사이트는 이터널 리턴의 가격정책을 실시간으로 반영하지 않습니다.<br />
+        참고 이외의 목적으로 사용할 수 없으며, 목적 외 이용에 대한 책임은 전적으로 본인에게 있습니다.
+      </p>
       <div>
         <span class="text-slate-500 text-sm">
-          Made by
+          문의
         </span>
         {" "}
         <a
