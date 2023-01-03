@@ -24,8 +24,7 @@ jobs:
           node-version: 18
           cache: "pnpm"
       - run: pnpm install --frozen-lockfile
-      - run: mkdir -p dist
-      - run: pnpm run build.server
+      - run: pnpm run build
       - uses: actions/upload-pages-artifact@v1
         with:
           path: ./dist
